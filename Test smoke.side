@@ -1,0 +1,265 @@
+{
+  "id": "941ddf6c-086c-496c-a5da-04974cecb643",
+  "version": "2.0",
+  "name": "Test smoke",
+  "url": "https://www.gammatest.net/",
+  "tests": [{
+    "id": "61707e50-8b3a-4efe-8bb8-49f8a7c47d55",
+    "name": "Test gammates",
+    "commands": [{
+      "id": "63211861-fa88-42ba-afa4-4256a5f0cd25",
+      "comment": "",
+      "command": "open",
+      "target": "https://gammatest.net/ru/kurs_data_analysis.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69e1f915-6219-4348-a964-431fd95b6edb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "286e0d33-0f4e-4bed-a358-73e4d3985ff1",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-03",
+      "targets": [
+        ["id=input-03", "id"],
+        ["name=fullname", "name"],
+        ["css=.form-group:nth-child(2) > #input-03", "css:finder"],
+        ["xpath=//input[@id='input-03']", "xpath:attributes"],
+        ["xpath=//form[@id='aboutform']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "050557e9-f7c8-4fff-9b8d-d1020a040ef5",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-03",
+      "targets": [
+        ["id=input-03", "id"],
+        ["name=fullname", "name"],
+        ["css=.form-group:nth-child(2) > #input-03", "css:finder"],
+        ["xpath=//input[@id='input-03']", "xpath:attributes"],
+        ["xpath=//form[@id='aboutform']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "efe"
+    }, {
+      "id": "934b2ea1-afc2-4b3c-9f6a-a3cd3e6d625f",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(3) > #input-03", "css:finder"],
+        ["xpath=(//input[@id='input-03'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='aboutform']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1504901c-f705-47dd-beec-e31756981b53",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(3) > #input-03", "css:finder"],
+        ["xpath=(//input[@id='input-03'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='aboutform']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "ivan.ivano@gmail.com"
+    }, {
+      "id": "71b06ba4-12dc-4826-9c63-d41eb40b523b",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.form-group:nth-child(4) > #input-03", "css:finder"],
+        ["xpath=(//input[@id='input-03'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='aboutform']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c8f6a9e-be82-4ed5-bd19-4a578d83aa93",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.form-group:nth-child(4) > #input-03", "css:finder"],
+        ["xpath=(//input[@id='input-03'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='aboutform']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "5454524"
+    }, {
+      "id": "fb0cd73e-d242-4049-aea7-835e4746134a",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-06",
+      "targets": [
+        ["id=input-06", "id"],
+        ["name=message", "name"],
+        ["css=#input-06", "css:finder"],
+        ["xpath=//textarea[@id='input-06']", "xpath:attributes"],
+        ["xpath=//form[@id='aboutform']/div[4]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d116117-0e5e-4c6a-88e7-1d946f6d86c8",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-06",
+      "targets": [
+        ["id=input-06", "id"],
+        ["name=message", "name"],
+        ["css=#input-06", "css:finder"],
+        ["xpath=//textarea[@id='input-06']", "xpath:attributes"],
+        ["xpath=//form[@id='aboutform']/div[4]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "fefeef"
+    }, {
+      "id": "60d4ebf6-8df4-416d-a70a-3d7845b3d26f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='aboutform']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить сообщение')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "348aab64-f009-45d4-9613-518f157e12f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='aboutform']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить сообщение')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "269efc68-66dd-4365-ac60-9ab6e83d5f7b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='aboutform']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить сообщение')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c29caab8-ca0b-43e0-af45-2589594db743",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.row:nth-child(18) > .col-md-4:nth-child(1) i",
+      "targets": [
+        ["css=.row:nth-child(18) > .col-md-4:nth-child(1) i", "css:finder"],
+        ["xpath=//body[@id='hp']/div[3]/div[4]/div/h3/strong/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"],
+        ["xpath=//i[contains(.,'Учим решать реальные задачи с помощью анализа данных')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "46efe93d-1b48-4cc9-8658-8148083c1ec6",
+    "name": "Verify test courses",
+    "commands": [{
+      "id": "8c814d15-4e8e-4d50-86ca-054006109069",
+      "comment": "",
+      "command": "open",
+      "target": "https://gammatest.net/ru/kurs_data_analysis.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b49ba2b-2784-4968-864f-596bc1155b45",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "916x592",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8dd3014-06bd-4fe8-9319-1ac1436e0cdb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gamma Intelligence Training Centre",
+      "targets": [
+        ["linkText=Gamma Intelligence Training Centre", "linkText"],
+        ["css=.navbar-brand", "css:finder"],
+        ["xpath=//a[contains(text(),'Gamma Intelligence Training Centre')]", "xpath:link"],
+        ["xpath=//body[@id='hp']/div/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gamma Intelligence Training Centre')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16ca38ce-e6cc-4ece-a4e3-da9a260bbf9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "492b4436-5156-4e55-b955-79e8e53f3fe7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(14) > .col-md-4:nth-child(1) a",
+      "targets": [
+        ["css=.row:nth-child(14) > .col-md-4:nth-child(1) a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Подробнее')])[4]", "xpath:link"],
+        ["xpath=//body[@id='hp']/div/div[5]/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ru/kurs_python_105.php')]", "xpath:href"],
+        ["xpath=//div[5]/div/p[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12015692-8947-479e-8c92-ac0d77c7cd1e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ознакомиться с CV",
+      "targets": [
+        ["linkText=Ознакомиться с CV", "linkText"],
+        ["css=.more > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Ознакомиться с CV')]", "xpath:link"],
+        ["xpath=//body[@id='hp']/div/div[2]/div/div/div[2]/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ru/trainers.php')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ознакомиться с CV')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a1a3f2c0-fc82-4570-8fd0-bcd5e584862c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.gammatest.net/"],
+  "plugins": []
+}
